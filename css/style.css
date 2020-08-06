@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+body {
+	background-color: #000;
+}
+.container {
+	width: 1000px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.navi {
+	width: 350px;
+	float: left;
+	overflow: hidden;
+}
+.navi ul {
+	height: 520px;
+}
+.navi ul li {
+	list-style-type: none;
+	width: 150px;
+	margin-right: 10px;
+	float: left;
+}
+.navi ul li img {
+	border: 3px solid white;
+}
+.main {
+	width: 650px;
+	float: right;
+}
+.main img {
+	border: 3px solid white;
+	position: absolute;
+}
